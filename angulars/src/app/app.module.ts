@@ -7,18 +7,16 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './component/header/header.component';
 import { CartComponent } from './component/cart/cart.component';
-import { ProductComponent } from './component/product/product.component';
-import { ProductsComponent } from './components/products/products.component';
-import { SignupComponent } from './signup/signup.component';
+import { ProductsComponent } from './component/products/products.component';
+import { FilterPipe } from './shared/filter.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
     CartComponent,
-    ProductComponent,
     ProductsComponent,
-    SignupComponent
+    FilterPipe
   ],
   imports: [
     BrowserModule,
